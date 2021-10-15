@@ -431,8 +431,10 @@ text{
 }
 
 .new-card__img{
-    width: 210px;
-    width: 210px;
+    width: 200px;
+    width: 200px;
+    padding-left: 30px;
+    margin-bottom: 20px;
 }
 .button__groups{
     margin-top: 20px;
@@ -679,12 +681,19 @@ text{
 
 .new-card-description{
     padding-left: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+}
+
+@media(min-width){
+    .-description{
+        padding-left: 50px;
+    }
 }
 
 .new-category-list-container{
     flex-direction: column;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 @media(min-width:900px){
