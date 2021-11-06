@@ -39,6 +39,33 @@ h4 {
 
 /* utilities */
 
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  .overlay--show {
+    display: block;
+  }
+  
+  .visually_hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+
 .hamburger span {
     width: 18px;
     height: 2px;
